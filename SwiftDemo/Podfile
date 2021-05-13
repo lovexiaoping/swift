@@ -4,6 +4,8 @@ use_frameworks!
 
 target 'SwiftDemo' do
 
+  
+    pod 'Alamofire'
     #SwiftyJSON：很好、很方便地处理JSON数据
     pod 'SwiftyJSON', '~> 4.0'
 

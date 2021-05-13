@@ -49,7 +49,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         RLHTTPManage.rlHttpManage.netWorkReachability() { (status) in
        
-            
             switch status {
                 case .unknown:
                     mainWindow?.show(text: "unknown")
@@ -60,13 +59,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
                 
             }
-               
-//            print("net status = \(status)")
-//            if status == .notReachable {
-//                mainWindow?.show(text: "notReachable")
-//            }else if status == .unknown {
-//                mainWindow?.show(text: "unknown")
-//            }
             
         }
 

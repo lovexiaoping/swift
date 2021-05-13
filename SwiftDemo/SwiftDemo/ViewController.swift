@@ -43,9 +43,7 @@ class ViewController: RotateBaseViewController {
         UMCommonLogSwift.setUpUMCommonLogManager()
         UMCommonSwift.setLogEnabled(bFlag: true)
         UMCommonSwift.initWithAppkey(appKey: "5e900b7b0cafb2a8310001ce", channel: "App Store")
-                
-        
-        
+                    
         
    
     }
@@ -54,11 +52,7 @@ class ViewController: RotateBaseViewController {
         // 强制竖屏
         forceOrientationPortrait()
     }
-    
-    
-
-    
-    
+     
     //MARK: 懒加载标砖
     lazy var bgView: UIView = {
         let view = UIView()
