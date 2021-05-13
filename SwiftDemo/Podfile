@@ -1,0 +1,160 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '10.0'
+use_frameworks!
+
+target 'SwiftDemo' do
+
+    #SwiftyJSON：很好、很方便地处理JSON数据
+    pod 'SwiftyJSON', '~> 4.0'
+
+    #ObjectMapper:把json对象映射为model对象。
+    pod 'ObjectMapper', '~> 3.5'
+
+    #用swift封装的sqlite 3操作框架。
+    pod 'SQLite.swift', '~> 0.12.0'
+
+    #SwiftyUserDefaults:对NSUserDefaults的封装，让NSUserDefaults使用更简单。
+    pod 'SwiftyUserDefaults', '~> 5.0'
+
+
+    #KeychainAccess:使用Keychain非常方便
+    pod 'KeychainAccess'
+
+    #Rx中文文档 https://beeth0ven.github.io/RxSwift-Chinese-Documentation/
+    
+    pod 'RxSwift', '~>6.1.0'
+    pod 'RxCocoa', '~>6.1.0'
+    pod 'RxDataSources'
+
+    #图片加载
+    #pod 'Kingfisher'
+
+    #加密 https://github.com/krzyzanowskim/CryptoSwift
+    pod 'CryptoSwift', '~> 1.3.8'
+
+    pod 'Moya', '~> 14.0'
+
+    pod 'ReachabilitySwift'
+
+
+    #不需要一行代码就可打造拥有炫酷动画效果的UI界面：https://github.com/IBAnimatable/IBAnimatable
+    pod 'IBAnimatable'
+
+  
+    #Spring:MengTo写的动画框架，
+  
+   
+    #label数字变形过渡动画，用于金额数字变动或者时间上面会非常nice！
+
+    #很多漂亮的加载指示器
+    pod 'NVActivityIndicatorView'
+
+
+
+    #DGElasticPullToRefresh:有弹性效果的下拉刷新控件。
+
+    #图表
+    #pod 'Charts'
+    #自动布局框架，类似于Masonry。（推荐）
+    pod 'SnapKit', '~> 5.0.0'
+    #其他框架https://github.com/AppPear/ChartView
+
+    #Cartography:自动布局DSL。
+    #Neon:一款关于UI自动布局的框架。
+    #Stevia:自动布局。
+    #TZStackView:UISatckView的代替品，支持iOS7+。
+
+
+    #日志
+    pod 'XCGLogger', '~> 7.0.1'
+   
+
+   #PageMenu:滑动出现不同分页的一个pagemenu，用于不同状态分页效果上是很好的选择。
+
+   #封装NSAttributedString的框架，让attributed strings处理更加简单，而且是链式结构，看起来更加直观。
+   pod 'TextAttributes'
+
+   #拥有很多种特性的label。魔法 发光 等
+   #pod 'LTMorphingLabel'
+
+   #集成color功用的库，使用的是hex颜色值。
+   pod 'Hue'
+
+   #Ramotion出品，turned on覆盖父视图的动画效果。
+   pod 'RAMPaperSwitch'
+
+   #点赞收藏等button
+
+   #Alert、Sheet
+   #SCLAlertView-Swift:不错的一款alert view。
+
+   # cell 的折叠l效果，动画很nice。
+   pod 'FoldingCell'
+
+   #引导页、新手教程
+   #集成引导页，具有不错的动画效果
+   pod 'Instructions', '~> 2.0.1'
+
+
+   #成熟的图片拾取器
+   pod 'ZLPhotoBrowser'
+   #图片选择器
+   pod 'ImagePicker'
+   #左右点卡动画 卡片视图，而且滑动视图有滑动卡片一样的动画效果。
+   pod "Koloda"
+
+
+   #Chatto:轻量级构建聊天应用的框架
+
+
+   #非常方便地实现App间跳转和DeepLink。
+   pod 'Appz'
+
+   #蓝牙
+
+   #SwiftyStoreKit:封装的轻量级的APP内购框架。
+   pod 'SwiftyStoreKit'
+
+
+
+   #GCD异步分发
+   pod "AsyncSwift"
+   #能提供强大的 iOS 开发异步功能,非常容易使用。
+   pod "PromiseKit/CorePromise", "~> 6.8"
+
+   #复杂屏幕截屏
+   pod 'DDGScreenShot', '~> 1.1.6'
+
+   #常用的 Swift、Objective-C 和 iOS 扩展
+   pod 'NiceSwiftExtensions'
+
+   #消息通知条https://github.com/Daltron/NotificationBanner
+   #pod 'NotificationBannerSwift', '~> 3.0.0'
+
+
+   pod 'MBProgressHUD'
+   
+   #https://github.com/JoanKing/JKSwiftExtension
+   #Swift常用扩展、组件、协议，方便项目快速搭建，提供完整清晰的Demo示例，不断的完善中......
+   pod 'JKSwiftExtension'
+
+
+   #功能强大的轮播图 https://github.com/xumaohuai/SBCycleScrollView
+   pod 'SBCycleScrollView','~> 0.0.8'
+   #正常的。。。轮播图
+   #pod 'LLCycleScrollView' 
+   #动画，大小，轮播图https://github.com/Coder-TanJX/JXBanner
+   pod 'JXBanner'
+   
+   
+   pod 'MJRefresh'
+
+
+
+
+end
+
+
+
+
+
