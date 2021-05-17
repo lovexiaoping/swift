@@ -31,6 +31,12 @@ class ViewController: RotateBaseViewController {
     
     lazy var dataArrayM = NSMutableArray()
 
+//    声明一个只有一个参数没有返回值闭包的别名
+    typealias SomeClosuerType = (String) -> (Void)
+    let someClosuer: SomeClosuerType = { (name: String) in
+        print("hello,", name)
+    }
+    
     var button1: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -45,8 +51,19 @@ class ViewController: RotateBaseViewController {
         UMCommonSwift.initWithAppkey(appKey: "5e900b7b0cafb2a8310001ce", channel: "App Store")
                     
         
-   
+        
+        swap1(&num,1,3)
+
+        someClosuer("world")
+
     }
+  
+    // hello, world
+    
+    
+    
+    
+    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         // 强制竖屏
@@ -60,6 +77,30 @@ class ViewController: RotateBaseViewController {
     }()
     
     
+    
+    //泛型
+    func swapfun<T>(_ a: inout T, _ b: inout T) {
+        let temp = a
+        a = b
+        b = temp
+    }
+    
+    
+    
+    //swift中需要对参数只进行修改,需要用到inout 关键字,
+    //调用函数时加&
+
+
+    var num = [1,2,3,4,5,6,7]
+    
+    //给一个数组，用swift函数，交换数组的两个元素
+    func swap1(_ nums: inout [Int], _ a: Int , _ b:Int) {
+        let temp = nums[a]
+        nums[a] = nums[b];
+        nums[b] = temp
+        
+    }
+
     
     
     
