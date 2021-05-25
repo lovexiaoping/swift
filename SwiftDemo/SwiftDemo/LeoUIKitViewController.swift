@@ -21,6 +21,15 @@ class LeoUIKitViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    
+    //清空删除所有子视图（子元素）
+    func clearViews() {
+        for v in self.view.subviews as [UIView] {
+            v.removeFromSuperview()
+        }
+    }
+    
+    
     func createUIBarButtonItem() {
         let btn = UIButton()
         btn.setImage(UIImage(named: "logo.png"), for: .normal)

@@ -118,7 +118,10 @@ target 'SwiftDemo' do
 
    #引导页、新手教程
    #集成引导页，具有不错的动画效果
+   #https://gitee.com/rockerhx-spm/Instructions?_from=gitee_search
    pod 'Instructions', '~> 2.0.1'
+   
+   
 
 
    #成熟的图片拾取器 五河/ZLPhotoBrowser - 相册相机的三方框架

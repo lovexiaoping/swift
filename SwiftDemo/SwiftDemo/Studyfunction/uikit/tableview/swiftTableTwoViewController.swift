@@ -130,6 +130,8 @@ class swiftTableTwoViewController: UIViewController , UITableViewDelegate, UITab
             
             cell.nameLabel.text = values?[indexPath.row]
             
+            cell.delegate = self
+            
             return cell
         }
         
@@ -147,7 +149,33 @@ class swiftTableTwoViewController: UIViewController , UITableViewDelegate, UITab
         func sectionIndexTitles(for tableView: UITableView) -> [String]? {
             return sectionTitles
         }
+    
+    
+    //MARK:-- Swift - 给表格添加Cell的显示动画（3D缩放
+    //设置cell的显示动画
+    private func tableView(tableView: UITableView!, willDisplayCell cell: UITableViewCell!,
+        forRowAtIndexPath indexPath: NSIndexPath!){
+        //设置cell的显示动画为3D缩放
+        //xy方向缩放的初始值为0.1
+        cell.layer.transform = CATransform3DMakeScale(0.1, 0.1, 1)
+        //设置动画时间为0.25秒，xy方向缩放的最终值为1
+        UIView.animate(withDuration: 0.25) {
+            cell.layer.transform=CATransform3DMakeScale(1, 1, 1)
+
+        }
+    }
+
+
+}
+extension swiftTableTwoViewController: CustomCell2Delegate{
+    // 06. 实现代理方法
+    
+    func CellbuttonClick (){
         
-
-
+    }
+    
+    func CellbuttonClick2( newInfo:String){
+        
+    }
+    
 }

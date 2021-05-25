@@ -17,11 +17,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
      var appName: String?
      var isForceLandscape: Bool = false
      var isForcePortrait: Bool = false
-
+    //后台任务
+    var backgroundTask:UIBackgroundTaskIdentifier! = nil
+    
+    
     class func sharedAppDelegate() ->AppDelegate {
         let myAppdelegate = UIApplication.shared.delegate as! AppDelegate
         return myAppdelegate
     }
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         //设置log
         XCGLoggerExample().setupXCGLogger()
@@ -41,6 +45,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window?.makeKeyAndVisible()
         
 
+        //增加标识，用于判断是否是第一次启动应用...
+        if (!(UserDefaults.standard.bool(forKey: "everLaunched"))) {
+            UserDefaults.standard.set(true, forKey:"everLaunched")
+            let guideViewController = GuideViewController()
+           //添加引导页
+        }
+        
+        
+        
+        
         RLHTTPManage.rlHttpManage.netWorkReachability() { (status) in
        
             switch status {
@@ -115,4 +129,18 @@ extension AppDelegate {
             
         }
     }
+}
+
+extension AppDelegate{
+    
+    func applicationDidEnterBackground(application: UIApplication) {
+        let controller:ViewController = self.window?.rootViewController as! ViewController
+              
+        
+    
+        //虽然定义了后台获取的最短时间，但iOS会自行以它认定的最佳时间来唤醒程序，这个我们无法控制
+        //UIApplicationBackgroundFetchIntervalMinimum 尽可能频繁的调用我们的Fetch方法
+        application.setMinimumBackgroundFetchInterval(UIApplication.backgroundFetchIntervalMinimum)
+  }
+   
 }

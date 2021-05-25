@@ -66,6 +66,9 @@ class SwiftCollectionViewController:RotateBaseViewController,UICollectionViewDel
         let data = dataSource[indexPath.row]
                 cell.imageView.image = UIImage(named: data["pic"] ?? "");
                 cell.titleLabel.text = data["name"] ?? ""
+        
+        cell.delegate = self
+
         return cell
         
     }
@@ -81,4 +84,18 @@ class SwiftCollectionViewController:RotateBaseViewController,UICollectionViewDel
     }
     */
 
+}
+
+// 05.1 遵守代理协议
+/** extension
+ -- extension 类似于 OC 中的 Category
+ -- 格式: extension 类名 {}
+ -- Swift中 代码可读性差, 通过 extension 完成代码分块, 增强可读性, 单一模块单独处理, 增大了当前类的作用域
+ -- extension 中 可以添加计算型属性 不能添加存储型属性; 可以定义便利构造函数 不能定义指定构造函数
+ */
+extension SwiftCollectionViewController: CustomCollectionViewDelegate{
+    // 06. 实现代理方法
+    func whiteButtonClick() {
+        print("ViewController中监听到了按钮点击")
+    }
 }
