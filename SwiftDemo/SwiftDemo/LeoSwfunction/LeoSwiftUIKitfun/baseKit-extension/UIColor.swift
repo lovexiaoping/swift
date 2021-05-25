@@ -22,6 +22,14 @@ extension UIColor {
             }
         }
     
+    
+     //获取反色   UIColor.blue.invertColor()  例如背景蓝色-title取反色
+    func invertColor() -> UIColor {
+        var r:CGFloat = 0, g:CGFloat = 0, b:CGFloat = 0
+        self.getRed(&r, green: &g, blue: &b, alpha: nil)
+        return UIColor(red:1.0-r, green: 1.0-g, blue: 1.0-b, alpha: 1)
+        
+    }
 
     //颜色 RGB
     func COLORFROMRGB(r:CGFloat,_ g:CGFloat,_ b:CGFloat, alpha:CGFloat) -> UIColor{

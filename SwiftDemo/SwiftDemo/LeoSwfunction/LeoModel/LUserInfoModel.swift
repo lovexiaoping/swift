@@ -16,9 +16,7 @@ class LUserInfoModel: NSObject {
     //创建一个静态或者全局变量，保存当前单例实例值
     private static let singleInstance = LUserInfoModel()
     //私有化构造方法
-    private override init() {
-        
-        
+    private override init() {        
         //给数组加一个原始数据
         datas.append("SI")
     }
@@ -30,3 +28,4 @@ class LUserInfoModel: NSObject {
     }
     
 }
+

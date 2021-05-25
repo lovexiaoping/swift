@@ -128,6 +128,7 @@ open class ESTabBarController: UITabBarController, ESTabBarDelegate {
         }
     }
     
+   
     // MARK: - ESTabBar delegate
     internal func tabBar(_ tabBar: UITabBar, shouldSelect item: UITabBarItem) -> Bool {
         if let idx = tabBar.items?.firstIndex(of: item), let vc = viewControllers?[idx] {

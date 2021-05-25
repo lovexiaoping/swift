@@ -23,37 +23,29 @@ class ESTabManage: NSObject {
         return singleEInstance
     }
 
-    
-    
-    
     func loadtabbar() {
         let tabBarController = ESTabBarController()
-               let v1 = SFirstViewController()
-               let v2 = SSecondViewController()
-               let v3 = SThirdViewController()
-               
-               /// MARK: 原生和系统混和设置  不常见
-               v1.tabBarItem = ESTabBarItem.init(title: "001", image: UIImage(named: "btn_home"), selectedImage: UIImage(named: "btn_home_highlight"))
-             
-               v2.tabBarItem = ESTabBarItem.init(title: "002", image: UIImage(named: "btn_home"), selectedImage: UIImage(named: "btn_home_highlight"))
-           
-               v3.tabBarItem = ESTabBarItem.init(title: "002", image: UIImage(named: "btn_home"), selectedImage: UIImage(named: "btn_home_highlight"))
-               
-//               UITabBar.appearance().tintColor = UIColor.red;
-        
-        
-        
-        
-        let n1 = UINavigationController.init(rootViewController: v1)
-        let n2 = UINavigationController.init(rootViewController: v2)
-        let n3 = UINavigationController.init(rootViewController: v3)
+        let v1 = SFirstViewController()
+        let v2 = SSecondViewController()
+        let v3 = SThirdViewController()
 
+       /// MARK: 原生和系统混和设置  不常见
+       v1.tabBarItem = ESTabBarItem.init(title: "001", image: UIImage(named: "btn_home"), selectedImage: UIImage(named: "btn_home_highlight"))
         
-//        tabBarController.viewControllers = [v1, v2, v3]
-        tabBarController.viewControllers = [n1, n2, n3]
+     
+       v2.tabBarItem = ESTabBarItem.init(title: "002", image: UIImage(named: "btn_home"), selectedImage: UIImage(named: "btn_home_highlight"))
+   
+       v3.tabBarItem = ESTabBarItem.init(title: "003", image: UIImage(named: "btn_home"), selectedImage: UIImage(named: "btn_home_highlight"))
+               
+               UITabBar.appearance().tintColor = UIColor.red;
+   
+        v1.navigationItem.title = "Example1"
 
-               let navigationController = UINavigationController.init(rootViewController: tabBarController)
-               AppDelegate.sharedAppDelegate().window?.rootViewController = navigationController
+        tabBarController.viewControllers = [v1, v2, v3]
+//        tabBarController.viewControllers = [n1, n2, n3]
+
+        let navigationController = UINavigationController.init(rootViewController: tabBarController)
+        AppDelegate.sharedAppDelegate().window?.rootViewController = navigationController
     }
     
 }

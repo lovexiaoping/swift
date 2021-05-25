@@ -24,6 +24,7 @@ class LeoWKWebViewController: UIViewController , WKNavigationDelegate, WKScriptM
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        title = "web"
 
         let screen = UIScreen.main.bounds
         

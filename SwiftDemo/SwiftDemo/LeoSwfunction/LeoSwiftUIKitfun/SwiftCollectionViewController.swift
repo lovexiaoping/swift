@@ -6,7 +6,7 @@
 //
 
 import UIKit
-
+import EmptyPage
 class SwiftCollectionViewController:RotateBaseViewController,UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout{
 
     var colltionView: UICollectionView!
@@ -30,9 +30,12 @@ class SwiftCollectionViewController:RotateBaseViewController,UICollectionViewDel
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        initView()
 
         // Do any additional setup after loading the view.
+    }
+    override func viewDidAppear(_ animated: Bool) {
+        initView()
+
     }
     
     
@@ -46,7 +49,8 @@ class SwiftCollectionViewController:RotateBaseViewController,UICollectionViewDel
         colltionView.backgroundColor = UIColor.white
              view.addSubview(colltionView)
     
-        
+//        let customEmptyView = UIView()
+//        colltionView.ep.set(emptyView: customEmptyView)
       }
 
        func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {

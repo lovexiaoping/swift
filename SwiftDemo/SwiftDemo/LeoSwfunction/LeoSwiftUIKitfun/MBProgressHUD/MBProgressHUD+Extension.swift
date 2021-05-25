@@ -6,6 +6,7 @@
 //
 
 import Foundation
+
 extension JKPOP where Base: MBProgressHUD {
 
     // MARK: 显示等待消息

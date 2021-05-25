@@ -27,8 +27,20 @@
 
 #import "Masonry.h"
 
+#import "UINavigationController+FDFullscreenPopGesture.h"
 
-#import <MBProgressHUD/MBProgressHUD.h>
+#import <GPUImage/GPUImage.h>
+
+//import
+
 #import <JKSwiftExtension/JKSwiftExtension-Swift.h>
 #import <MJRefresh/MJRefresh.h>
+
+
+
+//#import <FMDB/FMDB.h>
+
+#import <MBProgressHUD/MBProgressHUD.h>
+
+
 #endif /* SwiftDemo_Bridging_Header_h */

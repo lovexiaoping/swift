@@ -5,19 +5,29 @@ use_frameworks!
 target 'SwiftDemo' do
 
   
-    pod 'Alamofire'
     #SwiftyJSON：很好、很方便地处理JSON数据
     pod 'SwiftyJSON', '~> 4.0'
+  
+    pod 'Alamofire'
+    
+    #https://github.com/Moya/Moya
+    #详解： https://www.hangge.com/blog/cache/detail_1797.html
+    #网络抽象层库Moya: Moya 又是一个基于 Alamofire 的更高层网络请求封装抽象层
+    pod 'Moya', '~> 14.0'
+
+    
 
     #ObjectMapper:把json对象映射为model对象。
     pod 'ObjectMapper', '~> 3.5'
+    
+    #加载/空数据/无网络 https://github.com/linhay/EmptyPage
+    pod 'EmptyPage'
 
     #用swift封装的sqlite 3操作框架。
     pod 'SQLite.swift', '~> 0.12.0'
 
     #SwiftyUserDefaults:对NSUserDefaults的封装，让NSUserDefaults使用更简单。
     pod 'SwiftyUserDefaults', '~> 5.0'
-
 
     #KeychainAccess:使用Keychain非常方便
     pod 'KeychainAccess'
@@ -29,12 +39,13 @@ target 'SwiftDemo' do
     pod 'RxDataSources'
 
     #图片加载
-    #pod 'Kingfisher'
+    #https://www.jianshu.com/p/e025cec4197a
+    pod 'Kingfisher'
 
     #加密 https://github.com/krzyzanowskim/CryptoSwift
+    #是一个使用 Swift 编写的加密工具包，支持多种加密算法，如：MD5、SHA1、AES-128 等等。
     pod 'CryptoSwift', '~> 1.3.8'
 
-    pod 'Moya', '~> 14.0'
 
     pod 'ReachabilitySwift'
 
@@ -42,22 +53,34 @@ target 'SwiftDemo' do
     #不需要一行代码就可打造拥有炫酷动画效果的UI界面：https://github.com/IBAnimatable/IBAnimatable
     pod 'IBAnimatable'
 
-  
+    
     #Spring:MengTo写的动画框架，
-  
-   
+#    pod 'Spring'
+
+    pod 'GPUImage'
+
+    
+
     #label数字变形过渡动画，用于金额数字变动或者时间上面会非常nice！
 
     #很多漂亮的加载指示器
     pod 'NVActivityIndicatorView'
 
-
+    pod 'FMDB'
+    
 
     #DGElasticPullToRefresh:有弹性效果的下拉刷新控件。
+    
+    pod "MJRefresh"
+    #下拉刷新控件。https://github.com/LeoMobileDeveloper/PullToRefreshKit
+    pod "PullToRefreshKit"
+    
+
 
     #图表
     #pod 'Charts'
     #自动布局框架，类似于Masonry。（推荐）
+    #https://www.jianshu.com/p/f2aba4796463
     pod 'SnapKit', '~> 5.0.0'
     #其他框架https://github.com/AppPear/ChartView
 
@@ -98,7 +121,8 @@ target 'SwiftDemo' do
    pod 'Instructions', '~> 2.0.1'
 
 
-   #成熟的图片拾取器
+   #成熟的图片拾取器 五河/ZLPhotoBrowser - 相册相机的三方框架
+   #http://www.cocoachina.com/articles/56310
    pod 'ZLPhotoBrowser'
    #图片选择器
    pod 'ImagePicker'

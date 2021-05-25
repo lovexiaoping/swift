@@ -21,11 +21,6 @@ class SwiftStudyViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    
-
-    
-    
-    
     // MARK: - Swift 之  switch
 
     
@@ -61,21 +56,21 @@ class SwiftStudyViewController: UIViewController {
 
     func Structfun() {
         //结构体在Swift中的地位很重要，Array Dictionary Set Int Float Double Bool String都是结构体
+        
         /*
           什么时候用结构体，什么时候用类
           把结构体看做值
           位置（经纬度）坐标（二维坐标，三维坐标）温度
           把类看做是物体 人 车 动物
+        
          */
-        /*
-          结构较小，适用于复制操作，相比一个class的实例被多次引用，struct更加安全
-        无须担心内存泄漏或者多线程冲突问题
-        */
+        
+         /*
+           结构较小，适用于复制操作，相比一个class的实例被多次引用，struct更加安全
+           无须担心内存泄漏或者多线程冲突问题
+         */
         
         //与if语句相同的是， guard也是基于一个表达式的布尔值去判断一段代码是否该被执行。与if语句不同的是，guard只有在条件不满足的时候才会执行这段代码。你可以把guard近似的看做是Assert，但是你可以优雅的退出而非崩溃。
-
-
-        
         struct Location {
             var long: Double
             var lat : Double
@@ -184,8 +179,7 @@ class SwiftStudyViewController: UIViewController {
          上面的例子中:后面是闭包的类型，而=后面的就是一个代码块，也就是闭包的具体实现，这些个OC中的block基本一样。
          
          */
-       
-
+        
         
         let testOne: (String, String) -> String = {(str1, str2) in
             return str1 + str2
@@ -200,18 +194,6 @@ class SwiftStudyViewController: UIViewController {
         }
         print(aaa("inj"))
 
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
     }
     
     // MARK: - Swift 之  函数
@@ -231,12 +213,7 @@ class SwiftStudyViewController: UIViewController {
             // 有参数有返回值
             func square(a: Int, b: Int) { ... } //最简
          
-         
-       
-         
          */
-        
-        
         /*
         外部参数及忽略
         1/提供外部参数能增强函数的可读性，同时也能够让函数在内部使用参数更加简单
@@ -256,11 +233,8 @@ class SwiftStudyViewController: UIViewController {
          */
         
     }
-
-    
     // MARK: - Swift 之 ？、！、as、as!、as?（看我这点就够）
     func Swiftstudy2() -> Void {
-        
         /*
          
           ?的使用
@@ -316,7 +290,6 @@ class SwiftStudyViewController: UIViewController {
            let animal: Animal = Cat()
            let cat = animal as! Cat
          
-         
          as?的使用
          定义：与as!操作符的转换规则完全一样，但是as?如果转换不成功的时候便会返回一个nil对象。成功的话返回可选类型值。由于as?在转换的时候也不会出现错误，
               所以对于如果能确保100%会成功的转换则可以使用as!，否则用as?
@@ -328,13 +301,7 @@ class SwiftStudyViewController: UIViewController {
            } else {
              print("转换失败，是个nil")
            }
-         
-         
-         
          */
-        
-        
-        
     }
     
     
@@ -408,8 +375,8 @@ class SwiftStudyViewController: UIViewController {
         //loginName 表示为可选性，如果loginName 为空，则使用默认名称 Guest
           
         //?? 被命名为空合运算符
-        let v2 = AppDelegate.sharedAppDelegate().testv1
-        print(v2 ?? 1)
+       // let v2 = AppDelegate.sharedAppDelegate().testv1
+       // print(v2 ?? 1)
     
 
         //SwiftNotice.swift 指示器的使用
@@ -892,7 +859,11 @@ class SwiftStudyViewController: UIViewController {
     func getConfiguration(resource: String) -> Any {
         if let path = Bundle.main.path(forResource: resource, ofType: "json") {
             do {
+                
                 let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
+                //data转成数组
+                
+                
                 let jsonResult = try JSONSerialization.jsonObject(with: data, options: .mutableLeaves)
                 
                 

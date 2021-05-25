@@ -9,9 +9,9 @@
 
 import UIKit
 
-class swiftTableViewController: UIViewController ,UITableViewDelegate, UITableViewDataSource {
+class swiftTableViewController: UIViewController  {
 
-    var tableView   = UITableView()
+    lazy var tableView: UITableView   = UITableView()
     
     var dataList: NSMutableArray = []
     
@@ -25,27 +25,35 @@ class swiftTableViewController: UIViewController ,UITableViewDelegate, UITableVi
         self.navigationItem.rightBarButtonItem = UIBarButtonItem.init(barButtonSystemItem: .edit, target: self, action: #selector(editAction))
 
         dataList = NSMutableArray.init(array: ["狗欧股","毛毛","花花"])
-        
-    
+            
+        createTableviewUI()
         
         // Do any additional setup after loading the view.
     }
-    //MARK: ---  实例化tableview
+
     func createTableviewUI() {
-        tableView = UITableView.init(frame: UIScreen.main.bounds, style: .plain)
+       // tableView = UITableView.init(frame: UIScreen.main.bounds, style: .plain)
+        tableView.frame = view.bounds
         tableView.delegate = self
         tableView.dataSource = self
         //注册cell
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cellID")
         tableView.tableFooterView = UIView()
-        
         //去除分割线
         //tableView.separatorStyle = .none
-        
-        self.view.addSubview(tableView)
+        view.addSubview(tableView)
         
     }
+}
+//MARK:-- setup tableview UI
+extension swiftTableViewController{
+    //MARK: ---  实例化tableview
+   
     
+}
+//MARK:-- tableview 协议
+//折叠打开代码块：快捷键  command+option+left/right
+extension swiftTableViewController:UITableViewDelegate, UITableViewDataSource{
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int{
         
@@ -144,14 +152,4 @@ class swiftTableViewController: UIViewController ,UITableViewDelegate, UITableVi
         self.navigationItem.rightBarButtonItem = UIBarButtonItem.init(barButtonSystemItem: .edit, target: self, action: #selector(editAction))
         
     }
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

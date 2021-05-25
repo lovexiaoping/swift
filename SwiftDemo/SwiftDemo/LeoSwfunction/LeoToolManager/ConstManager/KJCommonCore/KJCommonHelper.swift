@@ -77,23 +77,15 @@ class KJHelper {
         return false
     }
     
-    public static func kNavigationBarHeight() -> CGFloat {
+    public static func IPHONENavigationBarHeight() -> CGFloat {
     
         return KJHelper.isFullScreen() ? 88 : 64
     }
-  
-//    static var kNavigationBarHeight: CGFloat {
-//       //return UIApplication.shared.statusBarFrame.height == 44 ? 88 : 64
-//       return isFullScreen ? 88 : 64
-//    }
-    
-    
-    
-    
-    
-    
-    
-    
+    public static func IPHONETabBarHeight() -> CGFloat {
+        
+        return KJHelper.isFullScreen() ? 88 : 49
+    }
+
     
     /// 颜色 - 十六进制
     public static func Color(_ hex: UInt32, alpha: CGFloat = 1.0) -> UIColor {

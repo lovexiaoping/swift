@@ -45,6 +45,8 @@ class ViewController: RotateBaseViewController {
         self.view.backgroundColor = UIColor.red;
         
         testButton2()
+        
+        testButton3()
                 
         UMCommonLogSwift.setUpUMCommonLogManager()
         UMCommonSwift.setLogEnabled(bFlag: true)
@@ -58,14 +60,20 @@ class ViewController: RotateBaseViewController {
 
     }
   
-    // hello, world
     
     
-    
+    func test4(){
+       //TODO 标记
+        //（1）当我们写代码时，如果有一些功能需要以后添加或者补全，那么就可以使用 TODO 关键字来标记提醒。
+        
+        // FIXME: 参数不正确时会导致崩溃
+
+    }
     
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        
         // 强制竖屏
         forceOrientationPortrait()
     }
@@ -84,13 +92,9 @@ class ViewController: RotateBaseViewController {
         a = b
         b = temp
     }
-    
-    
-    
+
     //swift中需要对参数只进行修改,需要用到inout 关键字,
     //调用函数时加&
-
-
     var num = [1,2,3,4,5,6,7]
     
     //给一个数组，用swift函数，交换数组的两个元素
@@ -101,18 +105,6 @@ class ViewController: RotateBaseViewController {
         
     }
 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     //创建Button视图
 
     func testButton3() {
@@ -126,8 +118,8 @@ class ViewController: RotateBaseViewController {
     }
     @objc func loadtabbar()  {
     
-//        ESTabManage.defaultSingleESTabInstance().loadtabbar();
-        ESCircleTabbarManage.defaultSingleESCircleTabInstance().loadECircleTabbar();
+        ESTabManage.defaultSingleESTabInstance().loadtabbar();
+//        ESCircleTabbarManage.defaultSingleESCircleTabInstance().loadECircleTabbar();
 
         
         
@@ -146,27 +138,18 @@ class ViewController: RotateBaseViewController {
         button.backgroundColor = UIColor.red
         view.addSubview(button)
         button.addTarget(self, action: #selector(pushWEB), for: .touchUpInside)
-
     }
-    
-    
     @objc func pushWEB()  {
-    
         
 //        let vc1 =  LeoWKWebViewController.init();
-        let vc1 =  SwiftCollectionViewController.init();
+//        let vc1 =  HomeTableViewController.init();
+//        let vc1 =  NavViewController.init();
+//        let vc1 =  SwiftCollectionViewController.init();
+//        let vc1 =  SQLViewController.init();
+        let vc1 =  POPGestureViewController.init();
 
-        
-        
-        
-        self.navigationController?.pushViewController(vc1, animated: true)
-        
-
+          self.navigationController?.pushViewController(vc1, animated: true)
     }
-    
-    
-    
-    
     
     //创建Button视图
 
